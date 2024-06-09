@@ -1,0 +1,15 @@
+/* importing google font */
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap');
+
+body{
+  font-family: "Playpen Sans", cursive ;
+  background-color: #3333;
+  color: #faedd2;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
