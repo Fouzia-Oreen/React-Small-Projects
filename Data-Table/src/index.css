@@ -16,7 +16,70 @@ a {
   text-decoration: inherit;
 }
 a:hover {
-  color: #f8eed8;
+  color: #f8eed8;:root {
+    line-height: 1.5;
+    font-weight: 400;
+  
+    color-scheme: light dark;
+  
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  a {
+    font-weight: 500;
+    color: #faedd2;
+    text-decoration: inherit;
+  }
+  a:hover {
+    color: #f8eed8;
+  }
+  h1 {
+    font-size: 3.2em;
+    line-height: 1.1;
+  }
+  
+  button {
+    border-radius: 6px;
+    border: none;
+    padding: 0.5em 1.2em;
+    font-size: 1em;
+    font-weight: 700;
+    font-family: inherit;
+    cursor: pointer;
+    transition: border-color 0.25s;
+    color: #faedd2;
+  }
+  .active {
+    background-color: #fc8f8f;
+    color: #332226;
+  }
+  .add {
+    background-color: rgb(243, 109, 109);
+  }
+  .edit {
+    background-color: #fc9744;
+  }
+  .delete {
+    background-color: #73addf;
+  }
+  input {
+    background-color: #f8eed8;
+    outline: none;
+    border: none;
+    padding: 0.6em 1.2em;
+    border-radius: 5px;
+    color: #332226;
+  }
+  
+  button,
+  input[type="text"] {
+    font-family: "Playpan Sans ", cursive;
+    appearance: none;
+  }
+  
 }
 h1 {
   font-size: 3.2em;
