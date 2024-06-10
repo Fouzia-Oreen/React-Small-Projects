@@ -1,8 +1,20 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<!-- Introducing Data Table -->
+Create advance table with ReactJs that includes CRUD Operation in Data Table with searchFilter & pagination all of them packed together implemented in this table
 
-Currently, two official plugins are available:
+# Create / Add
+Create or Add name , age, gender in the data table
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Read
+
+# Edit / Update
+Update the data by name , age, gender with edit button 
+
+# Delete
+Delete the data by name , age, gender with delete button 
+
+# Pagination 
+Search the number of data with active page load number
+
+# Search - Filter
+Search the data by name, that results all the number of data present there
